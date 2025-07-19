@@ -1,21 +1,26 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartly Project Readme</title>
+    <title>Kartly - MERN E-Commerce Project</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
             line-height: 1.6;
-            color: #333;
+            color: #24292e;
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
             padding: 20px;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
         }
         h1, h2, h3 {
-            border-bottom: 1px solid #eaeaea;
+            border-bottom: 1px solid #eaecef;
             padding-bottom: 0.3em;
-            margin-top: 1.5em;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
         }
         h1 { font-size: 2.25em; }
         h2 { font-size: 1.75em; }
@@ -26,21 +31,23 @@
             padding: 0.2em 0.4em;
             margin: 0;
             font-size: 85%;
-            border-radius: 6px;
+            border-radius: 3px;
         }
         pre {
             background-color: #f6f8fa;
             padding: 16px;
             overflow: auto;
             border-radius: 6px;
+            font-size: 85%;
         }
         pre code {
             padding: 0;
             margin: 0;
             background-color: transparent;
+            border-radius: 0;
         }
-        ul {
-            padding-left: 20px;
+        ul, ol {
+            padding-left: 2em;
         }
         li {
             margin-bottom: 0.5em;
@@ -52,16 +59,30 @@
         a:hover {
             text-decoration: underline;
         }
+        strong {
+            font-weight: 600;
+        }
+        hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #e1e4e8;
+            border: 0;
+        }
     </style>
 </head>
 <body>
 
     <h1>Kartly: A Full-Stack MERN E-Commerce Platform</h1>
 
+    <!-- 
+        You can add a screenshot of your app here! 
+        Example: <img src="path_to_your_screenshot.png" alt="Kartly App Screenshot" style="width:100%; border-radius: 6px;">
+    -->
+
     <p>
         <strong>Kartly</strong> is a fully-featured e-commerce marketplace built from the ground up using the MERN stack (MongoDB, Express.js, React, Node.js). This project demonstrates a complete, end-to-end application with a rich feature set for both customers and sellers, including product management, a shopping cart, a full checkout process, and user authentication.
     </p>
-
 
     <h2>Key Features</h2>
     <ul>
@@ -130,14 +151,11 @@ JWT_SECRET=yourrandomjwtsecretkey</code></pre>
         </li>
         <li>
             <strong>Create the Uploads Folder:</strong>
-            <p>Inside the <code>/backend</code> directory, manually create a folder named <code>uploads</code>. This is where product images will be stored.</p>
-            <pre><code>kartly/
-└── backend/
-    └── uploads/  <-- Create this folder</code></pre>
+            <p>Inside the <code>/backend</code> directory, manually create a folder named <code>uploads</code>.</p>
         </li>
         <li>
-            <strong>Seed the Database (Optional but Recommended):</strong>
-            <p>To populate the store with sample products, you can use the <code>insertMany</code> script provided in the project documentation. You will need to get the <code>_id</code> of a user who is a seller and add it to the script before running it in MongoDB Compass or <code>mongosh</code>.</p>
+            <strong>Seed the Database (Optional):</strong>
+            <p>To populate the store with sample products, use the <code>insertMany</code> script provided in the project documentation. You will need the <code>_id</code> of a seller to assign the products to.</p>
         </li>
     </ol>
 
@@ -158,7 +176,13 @@ JWT_SECRET=yourrandomjwtsecretkey</code></pre>
 
     <hr>
 
-    <p><em>(Feel free to use the other contribution breakdown if you prefer it!)</em></p>
+    <h2>Project Team</h2>
+    <p>This project was developed as a group effort by:</p>
+    <ul>
+        <li><strong>[Person 1's Name]</strong> - <em>Backend & API Architect</em></li>
+        <li><strong>[Person 2's Name]</strong> - <em>Frontend & UX Developer</em></li>
+        <li><strong>[Your Name]</strong> - <em>State Management & Logic Integrator</em></li>
+    </ul>
 
 </body>
 </html>
