@@ -5,12 +5,10 @@
 
   <h1>Kartly: A Full-Stack MERN E-Commerce Platform</h1>
 
-  <p><em><!-- Optional screenshot --></em></p>
 
   <p><strong>Kartly</strong> is a fully-featured e-commerce marketplace built from the ground up using the MERN stack (MongoDB, Express.js, React, Node.js). It demonstrates a complete, end-to-end application with rich features for both customers and sellers.</p>
 
-  <h2>🚀 Live Demo</h2>
-  <p><a href="#">[Link to your live deployed application]</a> <!-- Add your deployment link here --></p>
+  
 
   <h2>✨ Key Features</h2>
   <ul>
