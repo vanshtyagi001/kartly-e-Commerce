@@ -87,6 +87,5 @@ JWT_SECRET=yourrandomjwtsecretkey</code></pre>
 
   <hr>
   <p>© 2025 Kartly Project – All rights reserved.</p>
-
 </body>
 </html>
